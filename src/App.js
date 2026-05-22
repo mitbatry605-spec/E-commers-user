@@ -49,7 +49,7 @@ function AppContent() {
   const [loading, setLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState('home');
   const [globalSearchTerm, setGlobalSearchTerm] = useState('');
-const API_BASE_URL = 'https://backendtest-2-fsm9.onrender.com/api';
+const API_BASE_URL = 'https://backendtest-2-fsm9.onrender.com';
   const fetchUserCart = async () => {
     const token = localStorage.getItem('access_token');
     if (!token) return;
