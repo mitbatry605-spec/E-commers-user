@@ -21,8 +21,7 @@ const AuthModal = ({ isOpen, onClose, onLoginSuccess }) => {
   const [signupPhone, setSignupPhone] = useState('');
   const [signupPassword, setSignupPassword] = useState('');
   const [signupConfirmPassword, setSignupConfirmPassword] = useState('');
-
-  const API_BASE_URL = 'https://backendtest-2.onrender.com/api';
+const API_BASE_URL = 'https://backendtest-2-fsm9.onrender.com/api';
 
   const handleLogin = async (e) => {
     e.preventDefault();
