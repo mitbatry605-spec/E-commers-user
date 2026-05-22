@@ -22,7 +22,7 @@ const AuthModal = ({ isOpen, onClose, onLoginSuccess }) => {
   const [signupPassword, setSignupPassword] = useState('');
   const [signupConfirmPassword, setSignupConfirmPassword] = useState('');
 
-  const API_BASE_URL = 'http://localhost:8000/api';
+  const API_BASE_URL = 'https://backendtest-2.onrender.com/api';
 
   const handleLogin = async (e) => {
     e.preventDefault();

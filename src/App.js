@@ -50,7 +50,7 @@ function AppContent() {
   const [currentPage, setCurrentPage] = useState('home');
   const [globalSearchTerm, setGlobalSearchTerm] = useState('');
 
-  const API_BASE_URL = 'http://localhost:8000/api';
+  const API_BASE_URL = 'https://backendtest-2.onrender.com/api';
 
   const fetchUserCart = async () => {
     const token = localStorage.getItem('access_token');

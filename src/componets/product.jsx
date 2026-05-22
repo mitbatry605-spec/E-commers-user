@@ -56,7 +56,7 @@ const Products = ({ onAddToCart, onProductClick, onShowLoginModal, searchTerm = 
   const ratings = [0, 1, 2, 3, 4, 4.5];
 
   // API base URL
-  const API_BASE_URL = 'http://localhost:8000/api';
+  const API_BASE_URL = 'https://backendtest-2.onrender.com/api';
 
   // Sync with global search term from navbar
   useEffect(() => {
